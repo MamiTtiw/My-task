@@ -1,0 +1,43 @@
+/* 
+ タスク一覧
+ */
+.overflowX {
+  padding: 2rem 2rem;
+  overflow-x: auto;
+}
+.overflowX .row {
+  width: 85rem;
+  margin: auto;
+  padding-right: 2rem;
+}
+.end_alert {
+  background-color: #f2cd52;
+}
+/* 
+ タスク新規ボタン
+ */
+.addBtns {
+    position: fixed;
+    right: 2rem;
+    bottom: 3rem;
+}
+/* 
+ メモ一覧
+ */
+.memo-title {
+  background-color:#FF9F82;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+.memo-lists .row {
+  margin: 0;
+}
+.memo-contents {
+  margin-left: 1.5rem;
+}
+/* 
+ ユーザー一覧
+ */
+.userName {
+  background-color:#25BA9D;
+}

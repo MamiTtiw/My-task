@@ -1,0 +1,21 @@
+.single_title{
+    margin: 2rem 0;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid black;
+}
+
+.single_task_title {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.single_task_status_end {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.single_task_content{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
