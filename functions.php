@@ -11,6 +11,7 @@ function add_files()
   wp_enqueue_style('responsive-style', get_template_directory_uri() . '/css/responsive.css', "", '');
   wp_enqueue_style('header-style', get_template_directory_uri() . '/css/header.css', "", '');
   wp_enqueue_style('footer-style', get_template_directory_uri() . '/css/footer.css', "", '');
+  wp_enqueue_style('page-login-style', get_template_directory_uri() . '/css/login-form.css', "", '');
   wp_enqueue_style('single-style', get_template_directory_uri() . '/css/single.css', "", '');
   wp_deregister_script('jquery');
   wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.5.1.min.js', "", "", false);
