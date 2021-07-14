@@ -1,13 +1,42 @@
-.introductory-text{
+.top{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.top-page {
     color: #606060;
+    padding-right: 0;
 }
 
 .login-minititle{
     font-size: 1.4rem;
+    padding-left: 10rem;
+}
+
+.login-title{
+    padding-left: 10rem;
+}
+
+.introductory-text1{
+    margin-left: 11rem;
+    font-size: 1.1rem;
+}
+
+.introductory-text2{
+    margin-top: 9rem;
+    margin-left: 11rem;
+    font-size: 1.1rem;
 }
 
 .home-image{
-    height: 19rem;
-    width: 36rem;
+    margin-top: 5rem;
+    height: 18rem;
+    width: 38rem;
+}
+
+.member-image{
+    margin-top: 2rem;
+    height: 18rem;
+    width: 38rem;
 }
 
