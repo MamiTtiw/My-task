@@ -1,28 +1,33 @@
 <?php get_header(); ?>
 
-<session>
-	<div class="container">
-		<div class="row">
-			<div class="col introductory-text">
-				<p class="mt-5 login-minititle">タスク管理アプリ</p>
+	<session>
+		<div class="row top">
+			<div class="col top-page">
+				<p class="login-minititle mt-4">タスク管理アプリ</p>
 				<h1 class="login-title  mb-5">My taskとは</h1>
-				<p>期限が決まっていて、状態が変わっていく<span>”タスク”</span></p>
-				<p>近日中に単発的に行う<span>”ToDo”</span></p>
-				<p>バラバラに管理する形が多いこの２つを１つにまとめたい！</p>
-				<p>という気持ちから生まれました。</p>
-				<img class="home-image mt-4" src="<?php echo get_template_directory_uri(); ?>/img/home-image.jpg" />
-
+				<div class="introductory-text1">
+					<p>1．期限が決まっていて、状態が変わっていく”タスク”</p>
+					<p>近日中に単発で行う”ToDo”</p>
+					<p>「バラバラに管理する形が多いこの２つを、まとめて管理する」</p>
+				</div>
+				<div class="introductory-text2">
+					<p>2．リーダーは「他スタッフの進捗状況を確認できる」</p>
+					<p class="mt-5">この２点を実現させるために「My task」は生まれました。</p>
+				</div>
 			</div>
-			<div class="col mt-5 pt-5">
+			<div class="col">
+				<img class="home-image" src="<?php echo get_template_directory_uri(); ?>/img/home-image.jpg" />
+				<img class="member-image" src="<?php echo get_template_directory_uri(); ?>/img/member-image.jpg" />
+			</div>
+		</div>
+	</session>
+	<div class="col login-form">
 				<?php if ( have_posts() ) {
 					  while ( have_posts() ) { the_post(); ?>
 						<div><?php the_content(); ?></div>
 					<?php }
 				}?>
 			</div>
-		</div>
-	</div>
-</session>
 
 
 <?php get_footer(); ?>
