@@ -16,14 +16,24 @@
 - パスワード再設定(非表示設定中)
 - パスワード編集(非表示設定中)
 ### 使用技術
-PHP(v7.4.12)<br>
-Wordpress(v5.7.2)<br>
-Bootstrap(v4.5)<br>
-Vue.js(v2.6.14)：追加編集機能をモーダルに持たせてSPA化<br>
-SortableJS(v1.8.4)、Vue.Draggable (v2.23.2) ：ドラッグ＆ドロップ機能により操作性向上<br>
-mavon-Editor (v2.7.4)：効率的な文章入力
-### デプロイ
-ロリポップ！
+・フロントエンド
+ HTML/CSS<br>
+ Bootstrap(v4.5)<br>
+ Javascript<br>
+ jQuery(v3.5.1)
+ Vue.js(v2.6.14)：追加編集機能をモーダルに持たせてSPA化<br>
+ SortableJS(v1.8.4)、Vue.Draggable (v2.23.2) ：ドラッグ＆ドロップ機能により操作性向上<br>
+ mavon-Editor (v2.7.4)：効率的な文章入力
+ 
+・バックエンド
+　　PHP（v7.4.12）<br>
+　　Wordpress(v5.7.2)<br>
+
+・インフラ
+　　ロリポップ！レンタルサーバー
+ Docker 20.10.6 / Docker-compose 1.29.1
+　　MySQL 5.7
+  
 ### 今後追加したい機能
 - (編集者権限)投稿者を指定してタスク新規投稿
 - タスク完了の一括削除
