@@ -13,7 +13,7 @@
 				<div class="introductory-text2">
 					<p>2．リーダーは「他スタッフの進捗状況を確認できる」</p>
 					<p class="mt-5">この２点を実現させるために「My task」は生まれました。</p>
-					<a href="../profile/index.html" target="_blank" rel="noopener noreferrer">
+					<a href="<?php echo get_template_directory_uri(); ?>/profile/index.html" target="_blank" rel="noopener noreferrer">
           				作者プロフィールはこちら
         			</a>
 				</div>
