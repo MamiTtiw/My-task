@@ -28,6 +28,15 @@
     font-size: 1.1rem;
 }
 
+.introductory-text2 a {
+    color: #606060;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2rem;
+    padding-right: 4rem;
+}
+
 .home-image{
     margin-top: 5rem;
     height: 18rem;
